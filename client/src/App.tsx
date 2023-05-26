@@ -5,7 +5,7 @@ import { GlobalStyle } from './styles/global';
 
 
 import { Home } from './pages';
-import { Navbar } from './pages/Navbar'
+import { Navbar } from './pages'
 
 function App() {
   return (

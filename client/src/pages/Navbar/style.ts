@@ -2,6 +2,9 @@ import styled from 'styled-components';
 
 export const Navbardiv = styled.div `
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     position: fixed;
     width: 100%;
     height: 80px;
@@ -12,9 +15,7 @@ export const Navbardiv = styled.div `
 `
 
 export const Logo = styled.div `
-    position: absolute;
-    left: 100px;
-    top: 21px;
+    
 `
 
 export const Imagelink = styled.a `
@@ -27,63 +28,19 @@ export const Image = styled.img `
 `
 
 export const Sections = styled.div `
-    position: absolute;
-    margin-left: 32%;
-    top: 27px;
+    
+    
+    
 `
 
-export const Section1 = styled.a `
+export const Section = styled.a `
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
+    padding-right: 37px;
     color: #000000;
-    text-decoration: none;
-    &:hover {
-        color: #05B055;
-        transition: color 0.5s;
-    }
-`
-
-export const Section2 = styled.a `
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    color: #000000;
-    padding-left: 37px;
-    text-decoration: none;
-    &:hover {
-        color: #05B055;
-        transition: color 0.5s;
-    }
-`
-
-export const Section3 = styled.a `
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    color: #000000;
-    padding-left: 37px;
-    text-decoration: none;
-    &:hover {
-        color: #05B055;
-        transition: color 0.5s;
-    }
-`
-
-export const Section4 = styled.a `
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    color: #000000;
-    padding-left: 37px;
     text-decoration: none;
     &:hover {
         color: #05B055;
@@ -92,9 +49,7 @@ export const Section4 = styled.a `
 `
 
 export const Contactdiv = styled.div `
-    top: 18px;
-    position: absolute;
-    left: 82.5%;
+    
 `
 
 export const Link = styled.a `

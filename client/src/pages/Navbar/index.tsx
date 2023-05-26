@@ -1,6 +1,6 @@
 import React from "react";
 import { LogoColisio } from '../../assets';
-import {Navbardiv, Logo, Imagelink, Image, Sections, Section1, Section2, Section3, Section4, Contactdiv, Contact, Button, Link} from './style'
+import {Navbardiv, Logo, Imagelink, Image, Sections, Section, Contactdiv, Contact, Button, Link} from './style'
 
 export const Navbar: React.FC = () => {
     return(
@@ -9,10 +9,10 @@ export const Navbar: React.FC = () => {
                 <Imagelink href="#start"><Image src={LogoColisio}/></Imagelink>
             </Logo>
             <Sections>
-                <Section1 href="#">Sobre nós</Section1>
-                <Section2 href="#">Processo</Section2>
-                <Section3 href="#">Serviços</Section3>
-                <Section4 href="#">Clientes</Section4>
+                <Section href="#">Sobre nós</Section>
+                <Section href="#">Processo</Section>
+                <Section href="#">Serviços</Section>
+                <Section href="#">Clientes</Section>
             </Sections>
             <Contactdiv>    
                 <Link href="#contato">
