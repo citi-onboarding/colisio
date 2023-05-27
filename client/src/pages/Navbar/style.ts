@@ -28,9 +28,9 @@ export const Image = styled.img `
 `
 
 export const Sections = styled.div `
-    
-    
-    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 `
 
 export const Section = styled.a `
@@ -39,7 +39,6 @@ export const Section = styled.a `
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    padding-right: 37px;
     color: #000000;
     text-decoration: none;
     &:hover {
