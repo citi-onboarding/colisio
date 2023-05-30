@@ -1,5 +1,5 @@
-import LogoCITi from './logo.png';
+import RandonHomeImg from './randonHome.png';
 
 export {
-    LogoCITi
+    RandonHomeImg
 };

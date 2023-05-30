@@ -1,24 +1,23 @@
 import React from "react";
-import { HomeContainer } from './styles';
-import { LogoCITi } from '../../assets';
+import Anchor from "react-anchor-link-smooth-scroll"
+import { HomeContainerdiv, HomeH1, HomeImg, HomeP, Contact, ButtonH, AnchorH } from './styles';
+import { RandonHomeImg } from '../../assets';
 
 
 export const Home: React.FC = () => {
     return (
-        <HomeContainer>
-            <img src={LogoCITi} alt="" />
-            <h1>ReactJS Boilerplate</h1>
-            <p>
-                Made with
-                {' '}
-                <strong>&lt; &#x0002F; &gt;</strong>
-                {' '}
-                and
-                {' '}
-                <strong>&hearts;</strong>
-                {' '}
-                by CITi
-            </p>
-        </HomeContainer>
-    );
-}
+        <HomeContainerdiv>
+            <HomeH1>Construa times de Marketing sob demanda</HomeH1>
+            <HomeP>Concentre-se na sua estratégia e colabore com profissionais testados e selecionados com as habilidades específicas que seu negócio precisa.</HomeP>
+            <ButtonH>
+                <Anchor href='#Contact' offset='100'>ComeceAgora</Anchor>
+            </ButtonH>
+            <HomeImg
+                src={RandonHomeImg}
+                alt=''
+            />
+            <div id="Contact"></div>
+        </HomeContainerdiv>
+    )
+
+};
