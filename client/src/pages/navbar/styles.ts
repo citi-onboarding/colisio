@@ -75,11 +75,11 @@ export const NavbarButton = styled.a`
   font-size: 24px;
   line-height: 28px;
 
-  transition: 0.75s;
+  transition: 0.5s;
   &:hover {
     background-color: ${theme.colors.green};
     color: ${theme.colors.background};
 
-    transition: 0.75s;
+    transition: 0.5s;
   }
 `;
