@@ -1,5 +1,5 @@
-import LogoCITi from './logo.png';
+import LogoNavbar from './logoNavbar.svg';
 
 export {
-    LogoCITi
+    LogoNavbar
 };
