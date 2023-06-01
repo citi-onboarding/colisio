@@ -31,6 +31,8 @@ export const Sections = styled.div `
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
+    gap: 37px;
 `
 
 export const Section = styled.a `
