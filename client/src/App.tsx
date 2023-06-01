@@ -11,7 +11,6 @@ function App() {
     <ThemeProvider theme={theme}>
       <Home/>
       <Contato/>
-      <Home/>
       <GlobalStyle/>
     </ThemeProvider>
   );
