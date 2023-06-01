@@ -1,5 +1,5 @@
-import RandonHomeImg from './randonHome.png';
+import ImgHome from './ImgHome.png';
 
 export {
-    RandonHomeImg
+    ImgHome
 };
