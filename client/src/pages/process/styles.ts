@@ -3,19 +3,21 @@ import { ColisioS } from "../../assets";
 
 export const ProcessContainer = styled.div`
   width: 100%;
-  height: 500px;
+  height: auto;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  padding: 150px 90px 0 90px;
+  padding-top: 100px;
 `;
 
 export const ProcessTitle = styled.h1`
   width: 100%;
   height: auto;
+
+  margin-bottom: 100px;
 
   font-family: 'Raleway';
   font-style: normal;
@@ -28,12 +30,15 @@ export const ProcessTitle = styled.h1`
 
 export const ProcessContent = styled.div`
   width: 100%;
-  height: auto;
+  height: 680px;
+
+  padding: 80px 30px;
 
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+  gap: 100px;
 
   background-image: url(${ColisioS});
   background-repeat: no-repeat;
