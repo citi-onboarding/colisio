@@ -35,6 +35,8 @@ export const AboutUsContent = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  gap: 50px;
+
 `;
 
 export const Image = styled.img`
@@ -68,13 +70,13 @@ export const AboutUsTextTitle = styled.h1`
 `; 
 
 export const AboutUsTextContent = styled.p`
-  width: 350px;
-  height: 500px;
+  width: 100%;
+  height: auto;
 
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 50px;
+  line-height: 33px;
 
 `;
