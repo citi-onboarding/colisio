@@ -1,0 +1,48 @@
+import { Request, Response } from 'express';
+import { Process } from '@models/Process';
+import { Citi, Crud } from '../global'
+
+export default class ProcessController implements Crud {
+
+    async create(request: Request, response: Response){
+        const {title, description} = request.body;
+
+        const isAnyUndefined = Citi.areValuesUndefined(title, description);
+        if(isAnyUndefined) return response.status(400).send();
+
+        const newProcess = { title, description };
+        const {httpStatus, message} = await Citi.insertIntoDatabase(Process, newProcess);
+
+        return response.status(httpStatus).send({ message });
+    }
+
+    async get(request: Request, response: Response){
+        const {httpStatus, values} = await Citi.getAll(Process);
+        return response.status(httpStatus).send(values);
+    }
+
+    async delete(request: Request, response: Response){
+        const { id } = request.params;
+        const {value: processFound, message } = await Citi.findByID(Process, id); 
+           
+        if(!processFound) return response.status(400).send({ message });
+
+        const {httpStatus, messageFromDelete } = await Citi.deleteValue(Process, processFound);
+        return response.status(httpStatus).send({ messageFromDelete });
+    }
+
+    async update(request: Request, response: Response){
+        const { id } = request.params;
+        const {title, description } = request.body;
+
+        const isAnyUndefined = Citi.areValuesUndefined(title, description, id);
+        if(isAnyUndefined) return response.status(400).send();
+
+        const processWithUpdatedValues = { title, description };
+
+        const { httpStatus, messageFromUpdate } = await Citi.updateValue(Process, id, processWithUpdatedValues);
+        return response.status(httpStatus).send({ messageFromUpdate });
+    }
+
+    
+}
