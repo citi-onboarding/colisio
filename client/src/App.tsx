@@ -4,7 +4,7 @@ import { theme } from './styles/theme';
 import { GlobalStyle } from './styles/global';
 
 
-import { Home, Navbar, Process } from './pages';
+import { AboutUs, Home, Navbar, Process } from './pages';
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       <Navbar />
       <Home />
       <Process />
+      <AboutUs />
       <GlobalStyle />
     </ThemeProvider>
   );
