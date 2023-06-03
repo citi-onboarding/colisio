@@ -1,7 +1,9 @@
 import { Home } from './home';
-import { Contato } from './contato';
+import { Navbar } from './Navbar';
+import { Contato } from './contato'
 
 export {
     Home,
+    Navbar,
     Contato
 };

@@ -4,7 +4,7 @@ import { CellPhoneImg } from "../../assets";
 export const Contatodiv = styled.div `
     width: 100%;
     background-color: green;
-    background-image: url('cell-background-2.png');
+    background-image: url(${ CellPhoneImg });
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
