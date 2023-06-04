@@ -1,13 +1,13 @@
 import express from 'express';
-import UserController from '@controllers/UserController'
+import ProcessoController from '@controllers/ProcessoController';
 
 const routes = express.Router();
-const userController = new UserController();
+const processoController = new ProcessoController();
 
-routes.post('/user', userController.create);
-routes.get('/user', userController.get);
-routes.delete('/user/:id', userController.delete);
-routes.put('/user/:id', userController.update);
+routes.post('/processo', processoController.create);
+routes.get('/processo', processoController.get);
+routes.delete('/processo/:id', processoController.delete);
+routes.put('/processo/:id', processoController.update);
 
 
 export default routes;
