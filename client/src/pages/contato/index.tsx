@@ -9,11 +9,7 @@ export const Contato: React.FC = () => {
                 <Title>Contato</Title>
             </Titlediv>
             <Textdiv>
-                <Text>Veja como a</Text>
-                <Text>Colisio pode</Text>
-                <Text>transformar o</Text>
-                <Text>seu jeito de</Text>
-                <Text>fazer marketing!</Text>
+                <Text>Veja como a Colisio pode transformar o seu jeito de fazer marketing!</Text>
             </Textdiv>
             <Buttondiv>
                 <Link href='#contato'>

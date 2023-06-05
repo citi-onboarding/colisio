@@ -27,6 +27,11 @@ export const Textdiv = styled.div `
     padding-top: 104px;
     padding-left: 100px;
     justify-content: left;
+    width: 610px;
+    @media screen and (max-width: 609px){
+        width: 390px;
+        padding-left: 50px;
+    }
 `
 
 export const Text = styled.p `
@@ -35,12 +40,18 @@ export const Text = styled.p `
     font-weight: 700;   
     font-size: 64px;
     color: #FEFEFE;
+    @media screen and (max-width: 609px){
+        font-size: 24px;
+    }
 `
 
 export const Buttondiv = styled.div `
     padding-top: 80px;
     padding-left: 100px;
     padding-bottom: 154px;
+    @media screen and (max-width: 609px){
+        padding-left: 50px;;
+    }
 `
 
 export const Link = styled.a `
@@ -65,5 +76,8 @@ export const Buttontext = styled.p `
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    color: #F5F5F5
+    color: #F5F5F5;
+    @media screen and (max-width: 609px){
+       font-size: 24px;
+    }
 `
