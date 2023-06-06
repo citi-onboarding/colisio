@@ -4,19 +4,18 @@ export const HomeContainerdiv = styled.div`
     width: 100%;
     height: auto;
     background: #F5F5F5;
-    margin: #292929;
-    margin-left: 0;
-    margin-right: 0;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
+    gap: 60px;
     `;
 
 export const HomeH1 = styled.h1`
     font-family:'Raleway'; 
-    font-weight: 700; //pegando um único weight para o HomeP e HomeH1
+    font-weight: 700; 
+    width: 70%;
     font-size: 64px;
     color: #000000;
     `;
@@ -25,13 +24,15 @@ export const HomeP = styled.p`
     font-family: 'Raleway';
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 400; //pegando um único weight para o HomeP e HomeH1
+    font-weight: 400; 
+    width: 70%;
     font-size: 24px;
     line-height: 38px;
     color: #626262;  
     `;
 
 export const HomeImg = styled.img`
+    max-width: 80%;
     width: 1080px;
     height: 616px;
     `;
