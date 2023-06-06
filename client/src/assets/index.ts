@@ -1,8 +1,5 @@
-import LogoCITi from './logo.png';
-import LogoColisio from './LogoColisio.png'
+import ImgHome from './ImgHome.png';
 
 export {
-    LogoCITi,
-    LogoColisio
+    ImgHome
 };
-
