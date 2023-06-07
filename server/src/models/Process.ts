@@ -2,7 +2,7 @@ import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 
 
 @Entity()
-export class Processo {
+export class Process {
 
     @PrimaryGeneratedColumn()
     id: number;
@@ -12,8 +12,5 @@ export class Processo {
 
     @Column()
     description: string;
-
-    @Column()
-    price: number;
 
 }
