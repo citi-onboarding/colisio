@@ -7,7 +7,7 @@ export const Footer = () => {
 
         <Rodape>
             <Logo>
-                <img src={LogoColisio} alt="" height={91} width={400}/>
+                <img src={LogoColisio} alt="" height={100.1} width={440}/>
             </Logo>
             <Endereco>
                 <h1> Endereço </h1>
