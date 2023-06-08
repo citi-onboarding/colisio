@@ -6,6 +6,7 @@ import LogoColisio from './logoColisio.svg';
 import FacebookIcon from './facebookIcon.svg';
 import InstagramIcon from './instagramIcon.svg';
 import LinkedinIcon from './linkedinIcon.svg';
+import PhoneContactImage from './phoneContactImage.svg';
 
 export {
     HomeImage,
@@ -15,5 +16,6 @@ export {
     FacebookIcon,
     InstagramIcon,
     LinkedinIcon,
+    PhoneContactImage,
     LogoNavbar
 };
