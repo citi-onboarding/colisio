@@ -1,6 +1,9 @@
 import express from 'express';
+import UserController from '@controllers/UserController'
+import { SendMail } from '@controllers/MailController';
 import CarouselController from '@controllers/CarouselController';
 import ProcessController from '@controllers/ProcessController';
+
 
 const routes = express.Router();
 const carouselController = new CarouselController();
@@ -17,6 +20,8 @@ routes.get('/carousel', carouselController.get);
 routes.delete('/carousel/:id', carouselController.delete);
 routes.put('/carousel/:id', carouselController.update);
 
+
+routes.post('/email', SendMail);
 
 
 export default routes;
