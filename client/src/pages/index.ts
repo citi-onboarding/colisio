@@ -4,6 +4,7 @@ import { Process } from './process';
 import { AboutUs } from './aboutUs';
 import { Footer } from './footer';
 import { Contact } from './contact';
+import { Services } from './services';
 
 export {
     Home,
@@ -11,5 +12,6 @@ export {
     AboutUs,
     Footer,
     Contact,
+    Services,
     Navbar
 };
