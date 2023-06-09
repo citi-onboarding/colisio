@@ -10,6 +10,7 @@ export const HomeContainerdiv = styled.div`
     justify-content: space-evenly;
     text-align: center;
     gap: 60px;
+    padding-top: 80px;
     `;
 
 export const HomeH1 = styled.h1`

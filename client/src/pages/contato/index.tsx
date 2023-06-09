@@ -4,7 +4,7 @@ import { CellPhoneImg } from "../../assets";
 
 export const Contato: React.FC = () => {
     return (
-        <Contatodiv>
+        <Contatodiv id = "contato">
             <Titlediv>
                 <Title>Contato</Title>
             </Titlediv>
