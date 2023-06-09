@@ -16,6 +16,8 @@ export const NavbarContainer = styled.nav`
 
   border-bottom: 1px solid #545454;
 
+  z-index: 1;
+
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 `;
 

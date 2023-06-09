@@ -1,19 +1,30 @@
 import styled from 'styled-components';
-import { Carousel } from 'antd';
-
-export const CarouselStyled = styled(Carousel)`
-  width: 100%;
-  height: auto;
-`;
 
 export const ContainerCard = styled.div`
-  width: 60%;
+  width: 880px;
   height: 500px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  background: #FFFFFF;
+
+  border-radius: 10px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 `;
 
 export const CardImage = styled.img`
   width: 40%;
   height: 100%;
+
+  border-radius: 10px 0 0 10px;
+
+  object-fit: cover;
+
+  background: #C4C4C4;
 `;
 
 export const CardContent = styled.div`
@@ -22,10 +33,10 @@ export const CardContent = styled.div`
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 
-  padding: 100px 0;
+  padding: 100px 50px;
 `; 
 
 export const CardTitle = styled.h1`

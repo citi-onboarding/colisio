@@ -24,6 +24,7 @@ export const GlobalStyle = createGlobalStyle`
     color: ${(props) => props.theme.colors.text};
     font: 400 16px Raleway, sans-serif;
     -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
   }
 
   body {
