@@ -8,6 +8,7 @@ export const Contatodiv = styled.div `
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
+    padding-top: 80px;
 `
 
 export const Titlediv = styled.div `
