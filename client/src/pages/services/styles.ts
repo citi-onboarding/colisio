@@ -29,6 +29,8 @@ export const CarouselContainer = styled.div`
   width: 100%;
   height: auto;
   display: flex;
+
+  position: relative;
  
   z-index: 0;
 
@@ -45,8 +47,9 @@ export const CarouselStyled = styled(Carousel)`
     height: 550px;
   }
   
-  > .slick-active {
-      
+  & .slick-active {
+    margin: 0;
+    padding: 0;
   }
 
   > .slick-dots li button {
@@ -54,13 +57,14 @@ export const CarouselStyled = styled(Carousel)`
     height: 24px;
     border-radius: 24px;
     background: linear-gradient(0deg, rgba(42,42,42,1) 0%, rgba(5,176,85,1) 100%);;
-    margin: 35px 0 0 0;
+    margin: 0;
     transition: 0.5s;
   }
 
   > .slick-dots li.slick-active button {
     background: linear-gradient(0deg, rgba(42,42,42,1) 0%, rgba(5,176,85,1) 100%);;
-    margin: 35px 0 0 0;
+    margin: 0;
+    padding: 0;
     transition: 0.5s;
   }
 
@@ -94,3 +98,38 @@ export const CarouselStyled = styled(Carousel)`
   } 
 `;
  
+export const RightArrowContainer = styled.div`
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 40%;
+  right: 19%;
+
+  cursor: pointer;
+
+  z-index: 15;
+`; 
+
+export const LeftArrowContainer = styled.div`
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 40%;
+  left: 13%;
+
+  transform: rotate(180deg);
+
+  cursor: pointer;
+
+  z-index: 15;
+`; 

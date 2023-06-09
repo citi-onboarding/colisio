@@ -12,8 +12,8 @@ export const Navbar = () => {
         <NavbarMenuItem href="/#SobreNos">
           Sobre nós
         </NavbarMenuItem>
-        <NavbarMenuItem href="/#Processos">
-          Processos
+        <NavbarMenuItem href="/#Processo">
+          Processo
         </NavbarMenuItem>
         <NavbarMenuItem href="/#Servicos">
           Serviços

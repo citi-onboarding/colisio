@@ -7,6 +7,7 @@ import FacebookIcon from './facebookIcon.svg';
 import InstagramIcon from './instagramIcon.svg';
 import LinkedinIcon from './linkedinIcon.svg';
 import PhoneContactImage from './phoneContactImage.svg';
+import Arrow from './arrow.svg';
 
 export {
     HomeImage,
@@ -17,5 +18,6 @@ export {
     InstagramIcon,
     LinkedinIcon,
     PhoneContactImage,
+    Arrow,
     LogoNavbar
 };
