@@ -3,8 +3,10 @@ import { ProcessContainer, ProcessContent, ProcessTitle } from "./styles";
 
 export const Process = () => {
   return (
-    <ProcessContainer>
-      <ProcessTitle>Processo</ProcessTitle>
+    <ProcessContainer id="Processos">
+      <ProcessTitle>
+        Processo
+      </ProcessTitle>
       <ProcessContent>
         <ProcessCards
           title="LOREM"

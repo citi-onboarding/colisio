@@ -5,7 +5,9 @@ import { NavbarButton, NavbarContainer, NavbarLogo, NavbarMenu, NavbarMenuItem }
 export const Navbar = () => {
   return (
     <NavbarContainer>
-      <NavbarLogo src={LogoNavbar} alt="Logo da colisio" />
+      <a href="#Home">
+        <NavbarLogo src={LogoNavbar} alt="Logo da colisio" />
+      </a>
       <NavbarMenu>
         <NavbarMenuItem href="/#SobreNos">
           Sobre nós
@@ -20,7 +22,7 @@ export const Navbar = () => {
           Clientes
         </NavbarMenuItem>
       </NavbarMenu>
-      <NavbarButton href="/#contato">Contato</NavbarButton>
+      <NavbarButton href="/#Contato">Contato</NavbarButton>
     </NavbarContainer>
   );
 }

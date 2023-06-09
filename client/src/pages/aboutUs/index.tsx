@@ -3,7 +3,7 @@ import { AboutUsImage } from "../../assets"
 
 export const AboutUs = () => {
   return (
-    <AboutUsContainer>
+    <AboutUsContainer id="SobreNos">
       <AboutUsTitle>Sobre nós</AboutUsTitle>
       <AboutUsContent>
         <Image src={AboutUsImage} alt="About Us" />

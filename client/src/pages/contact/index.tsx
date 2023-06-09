@@ -2,7 +2,7 @@ import { Container, Title, Text, ContactButton } from "./styles"
 
 export const Contact = () => {
   return (
-    <Container>
+    <Container id="Contato">
       <Title>
         Contato
       </Title>
