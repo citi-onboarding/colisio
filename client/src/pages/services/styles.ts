@@ -96,6 +96,14 @@ export const CarouselStyled = styled(Carousel)`
     cursor: pointer;
     border: none;
   } 
+
+  & .slick-slide {
+    opacity: 0.5;
+  }
+
+  & .slick-active {
+    opacity: 1;
+  }
 `;
  
 export const RightArrowContainer = styled.div`

@@ -57,7 +57,7 @@ export const Services = () => {
         Serviços
       </Title>
       <CarouselContainer>
-        <LeftArrowContainer>
+        <LeftArrowContainer >
           <img src={Arrow} alt="Seta para esquerda" />
         </LeftArrowContainer>
         <CarouselStyled {...settings}>
