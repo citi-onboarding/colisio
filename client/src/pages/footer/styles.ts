@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Rodape = styled.footer`
     display: flex;
-    flex-direction: row;
     width: 100%;
     height: 360px;
     left: 0px;
@@ -10,21 +9,30 @@ export const Rodape = styled.footer`
     margin-top: 5224px;
     background: linear-gradient(180deg, #303030 0%, #2D2D2D 28.65%, #242424 100%);
     align-items: center;
-    align-content: center;
+    gap: 400px;
+
+`;
+export const Conteudo = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
 `;
 
+
 export const Logo = styled.image`
-    margin-top: 1%;
-    margin-left: 10%;
+    padding-left: 5%;
     width: 400px;
     height: 91px;
 `;
 
-export const Endereco = styled.div`
-
+export const Texto_Endereco = styled.div`
     display: flex;
-    margin-left: 12%;
-    margin-bottom: 4%;
+    flex-direction: column;
+
+    gap: 20px;
+`;
+export const Endereco = styled.div`
     width: 74px;
     height: 19px;
 
@@ -35,14 +43,10 @@ export const Endereco = styled.div`
     line-height: 19px;
 
     color: #FEFEFE;
-
 `;
 
 export const Dados_Endereco = styled.div`
-    display: flex;
-    flex-direction: column;
-    margin-left: -4%;
-    margin-top: 3%;
+
     width: 1000px;
     height: 66px;
 
@@ -55,11 +59,17 @@ export const Dados_Endereco = styled.div`
     color: #D3D3D3;
 `;
 
+export const Texto_Contato = styled.div`
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+`;
+
+
 export const Contato = styled.div`
 
-    display: flex;
-    margin-bottom: 4%;
-    margin-right: -3.9%;
+
     height: 19px;
 
     font-family: 'Raleway';
@@ -72,10 +82,7 @@ export const Contato = styled.div`
 `;
 
 export const Dados_Contato = styled.div`
-    display: flex;
-    flex-direction: column;
-    margin-top: 3%;
-    margin-right: 13%;
+
     width: 1000px;
     height: 66px;
 
@@ -89,10 +96,7 @@ export const Dados_Contato = styled.div`
 `;
 
 export const Redes = styled.div`
-    display: flex;
-    margin-bottom: 4%;
-    margin-left: -12%;
-    margin-right: 4%;
+
     width: 48px;
     height: 19px;
 
@@ -105,30 +109,24 @@ export const Redes = styled.div`
     color: #FEFEFE;
 `;
 
-export const Facebook = styled.a`
+export const Redes_Container = styled.div`
+    width: auto;
+    height: 100%;
     display: flex;
-    margin-left: -7%;
-    margin-right: 15%;
-    width: 25px;
-    height: 25px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
 `;
 
-export const Instagram = styled.a`
+export const Icones = styled.div`
     display: flex;
-    margin-left: -13.7%;
-    margin-right: 15%;
-    margin-top: 0.8%;
-    width: 25px;
-    height: 25px;
-
-    mix-blend-mode: screen;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
 `;
 
-export const Linkedin = styled.a`
-    display: flex;
-    margin-left: -14.2%;
-    margin-top: 0.7%;
-    margin-right: 10.5%;
+export const Redes_Sociais = styled.div`
     width: 25px;
     height: 25px;
 
