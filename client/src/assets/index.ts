@@ -5,6 +5,8 @@ import LogoFacebook from './logo_facebook.png';
 import LogoInstagram from './logo_instagram.png';
 import LogoLinkedin from './logo_linkedin.png';
 import CellPhoneImg from './cellphone.png';
+import SobreNos from "./Imagem_SobreNos.png"
+import LogoColisio2 from './logo2.png'
 
 export {
     LogoCITi,
@@ -14,5 +16,7 @@ export {
     LogoLinkedin,
     ImgHome,
     CellPhoneImg
+    SobreNos,
+    LogoColisio2
 };
 

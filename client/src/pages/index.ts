@@ -1,11 +1,13 @@
 import { Home } from './home';
 import { Footer } from './footer';
 import { Navbar } from './Navbar';
-import { Contato } from './contato'
+import { Contato } from './contato';
+import { Sobre_Nos } from './sobre_nos';
 
 export {
     Home,
     Footer,
     Navbar,
-    Contato
+    Contato,
+    Sobre_Nos
 };
