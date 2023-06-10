@@ -1,6 +1,6 @@
 import React from "react";
-import { Rodape, Logo, Endereco, Dados_Endereco, Contato, Dados_Contato, Redes, Redes_Sociais, Redes_Container, Texto_Endereco, Texto_Contato, Icones, Conteudo } from './styles';
-import { LogoColisio, LogoFacebook, LogoInstagram, LogoLinkedin } from '../../assets';
+import { Rodape, Logo, Endereco, Dados_Endereco, Contato, Dados_Contato, Redes_Titulo, Redes_Container, Texto_Endereco, Texto_Contato, Icones, Conteudo } from './styles';
+import { LogoColisio, Redes } from '../../assets';
 
 export const Footer = () => {
     return (
@@ -31,25 +31,11 @@ export const Footer = () => {
                     </Dados_Contato>
                 </Texto_Contato>
                 <Redes_Container>
-                    <Redes>
+                    <Redes_Titulo>
                         <h1> Redes </h1>
-                    </Redes>
+                    </Redes_Titulo>
                     <Icones>
-                        <Redes_Sociais>
-                            <a href="" target="_blank">
-                                <img src={LogoFacebook} alt="Logo Facebook" height={40} width={40}/>
-                            </a>
-                        </Redes_Sociais>
-                        <Redes_Sociais>
-                            <a href="" target="_blank">
-                                <img src={LogoInstagram} alt="Logo Instagram" height={25} width={25}/>
-                            </a>
-                        </Redes_Sociais>
-                        <Redes_Sociais>
-                            <a href="" target="_blank">
-                                <img src={LogoLinkedin} alt="Logo Linkedin" height={25} width={25}/>
-                            </a>
-                        </Redes_Sociais>
+                        <img src={Redes} alt="" height={50} width={150}/>
                     </Icones>
                 </Redes_Container>
             </Conteudo>

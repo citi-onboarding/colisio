@@ -16,12 +16,13 @@ export const Conteudo = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: flex-start;
+    gap: 200px;
+
 `;
 
 
 export const Logo = styled.image`
-    padding-left: 5%;
+    padding-left: 8%;
     width: 400px;
     height: 91px;
 `;
@@ -33,7 +34,7 @@ export const Texto_Endereco = styled.div`
     gap: 20px;
 `;
 export const Endereco = styled.div`
-    width: 74px;
+    width: auto;
     height: 19px;
 
     font-family: 'Raleway';
@@ -47,7 +48,7 @@ export const Endereco = styled.div`
 
 export const Dados_Endereco = styled.div`
 
-    width: 1000px;
+    width: auto;
     height: 66px;
 
     font-family: 'Open Sans';
@@ -69,7 +70,7 @@ export const Texto_Contato = styled.div`
 
 export const Contato = styled.div`
 
-
+    width: auto;
     height: 19px;
 
     font-family: 'Raleway';
@@ -83,7 +84,7 @@ export const Contato = styled.div`
 
 export const Dados_Contato = styled.div`
 
-    width: 1000px;
+    width: auto;
     height: 66px;
 
     font-family: 'Open Sans';
@@ -95,9 +96,9 @@ export const Dados_Contato = styled.div`
     color: #D3D3D3;
 `;
 
-export const Redes = styled.div`
+export const Redes_Titulo = styled.div`
 
-    width: 48px;
+    width: auto;
     height: 19px;
 
     font-family: 'Raleway';
@@ -116,18 +117,9 @@ export const Redes_Container = styled.div`
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 20px;
+    gap: 8px;
 `;
 
 export const Icones = styled.div`
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 20px;
-`;
-
-export const Redes_Sociais = styled.div`
-    width: 25px;
-    height: 25px;
-
+    padding-left: 40%;
 `;
