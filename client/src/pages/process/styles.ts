@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Vector2 } from '../../assets';
+import {Vector2} from '../../assets';
 import { Rectangle101 } from '../../assets';
 
 export const Processdiv = styled.div`
