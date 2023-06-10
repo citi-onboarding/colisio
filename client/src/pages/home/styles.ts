@@ -25,7 +25,6 @@ export const HomeH1 = styled.h1`
 export const HomeP = styled.p`
     width: 70%;
     font-family: 'Raleway';
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 400; 
     font-size: 24px;
