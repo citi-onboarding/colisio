@@ -1,18 +1,18 @@
 import { Entity, PrimaryGeneratedColumn, Column } from "typeorm"
 
 @Entity()
-export class User {
+export class Carousel {
 
     @PrimaryGeneratedColumn()
     id: number
 
     @Column()
-    firstName: string
+    title: string
 
     @Column()
-    lastName: string
+    text: string
 
     @Column()
-    age: number
+    image: string
 
 }
