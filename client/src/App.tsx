@@ -2,17 +2,16 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './styles/theme';
 import { GlobalStyle } from './styles/global';
-
-
-import { Home, Navbar, Contato, Sobre_Nos } from './pages';
+import { Home, Navbar, Contato, Sobre_Nos, Footer} from './pages';
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Home/>
-      <Navbar/>
+      <Navbar />
+      <Home />
       <Sobre_Nos/>
       <Contato/>
+      <Footer />
       <GlobalStyle/>
     </ThemeProvider>
   );
