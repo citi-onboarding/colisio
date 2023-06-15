@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { theme } from "../../styles/theme";
+import { GreenCircle } from "../../assets";
 
 export const AboutUsContainer = styled.div`
   width: 100%;
@@ -78,5 +79,23 @@ export const AboutUsTextContent = styled.p`
   font-weight: 400;
   font-size: 24px;
   line-height: 33px;
+`;
 
+export const LogoColisio = styled.div`
+  width: 650px;
+  height: 500px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: url(${GreenCircle});
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+
+  transform: rotate(180deg);
+
+  img {
+    transform: rotate(180deg);
+  }
 `;

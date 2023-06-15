@@ -1,5 +1,5 @@
-import { AboutUsContainer, AboutUsContent, AboutUsText, AboutUsTextContent, AboutUsTextTitle, AboutUsTitle, Image } from "./styles"
-import { AboutUsImage } from "../../assets"
+import { AboutUsContainer, AboutUsContent, AboutUsText, AboutUsTextContent, AboutUsTextTitle, AboutUsTitle, Image, LogoColisio } from "./styles"
+import { AboutUsImage, BlackColisio } from "../../assets"
 
 export const AboutUs = () => {
   return (
@@ -19,6 +19,9 @@ export const AboutUs = () => {
             mostrar o caminho para quem não sabe onde ir.
           </AboutUsTextContent>
         </AboutUsText>
+        <LogoColisio>
+          <img src={BlackColisio} alt="Logo Colisio" />
+        </LogoColisio>
       </AboutUsContent>
     </AboutUsContainer>
   )
