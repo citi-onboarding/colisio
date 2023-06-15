@@ -4,7 +4,7 @@ import { theme } from './styles/theme';
 import { GlobalStyle } from './styles/global';
 
 
-import { AboutUs, Footer, Home, Navbar, Process, Contact, Services } from './pages';
+import { AboutUs, Footer, Home, Navbar, Process, Contact, Services, Colisers } from './pages';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <Process />
       <AboutUs />
       <Services />
+      <Colisers />
       <Contact />
       <Footer />
       <GlobalStyle />

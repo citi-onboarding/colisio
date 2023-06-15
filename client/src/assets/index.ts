@@ -8,6 +8,8 @@ import InstagramIcon from './instagramIcon.svg';
 import LinkedinIcon from './linkedinIcon.svg';
 import PhoneContactImage from './phoneContactImage.svg';
 import Arrow from './arrow.svg';
+import GreenCircle from './greenCircle.svg';
+import BlackColisio from './blackColisio.svg';
 
 export {
     HomeImage,
@@ -19,5 +21,7 @@ export {
     LinkedinIcon,
     PhoneContactImage,
     Arrow,
+    GreenCircle,
+    BlackColisio,
     LogoNavbar
 };

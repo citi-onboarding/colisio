@@ -1,5 +1,6 @@
 import { Carousel } from "antd";
 import styled from "styled-components";
+import { Arrow } from "../../assets";
 
 export const Container = styled.div`
   width: 100%;
@@ -36,6 +37,7 @@ export const CarouselContainer = styled.div`
 
   & .ant-carousel {
     width: 100%;
+    height: auto;
   }
 `;
 
@@ -45,11 +47,6 @@ export const CarouselStyled = styled(Carousel)`
 
   & .slick-track {
     height: 550px;
-  }
-  
-  & .slick-active {
-    margin: 0;
-    padding: 0;
   }
 
   > .slick-dots li button {
@@ -103,41 +100,77 @@ export const CarouselStyled = styled(Carousel)`
 
   & .slick-active {
     opacity: 1;
+    margin: 0;
+    padding: 0;
+  }
+
+  > .slick-prev {
+    width: 50px;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 40%;
+    left: 13%;
+
+    transform: rotate(180deg);
+
+    background: url(${Arrow});
+    background-repeat: no-repeat;
+    background-size: 50px 80px;
+    background-position: center;
+    cursor: pointer;
+    z-index: 15;
+
+    :hover {
+      background: url(${Arrow});
+      background-repeat: no-repeat;
+      background-size: 50px 80px;
+      background-position: center;
+    }
+
+    :focus {
+      background: url(${Arrow});
+      background-repeat: no-repeat;
+      background-size: 50px 80px;
+      background-position: center;
+    }
+  }
+
+  > .slick-next {
+    width: 50px;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 40%;
+    right: 19%;
+
+    background: url(${Arrow});
+    background-repeat: no-repeat;
+    background-size: 50px 80px;
+    background-position: center;
+    cursor: pointer;
+    z-index: 15;
+
+    :hover {
+      background: url(${Arrow});
+      background-repeat: no-repeat;
+      background-size: 50px 80px;
+      background-position: center;
+    }
+
+    :focus {
+      background: url(${Arrow});
+      background-repeat: no-repeat;
+      background-size: 50px 80px;
+      background-position: center;
+    }
   }
 `;
- 
-export const RightArrowContainer = styled.div`
-  width: 50px;
-  height: 50px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  position: absolute;
-  top: 40%;
-  right: 19%;
-
-  cursor: pointer;
-
-  z-index: 15;
-`; 
-
-export const LeftArrowContainer = styled.div`
-  width: 50px;
-  height: 50px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  position: absolute;
-  top: 40%;
-  left: 13%;
-
-  transform: rotate(180deg);
-
-  cursor: pointer;
-
-  z-index: 15;
-`; 

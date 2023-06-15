@@ -1,6 +1,6 @@
 import { Arrow } from "../../assets"
 import { CarouselCards } from "../../components/CarouselCards"
-import { CarouselContainer, CarouselStyled, Container, LeftArrowContainer, RightArrowContainer, Title } from "./styles"
+import { CarouselContainer, CarouselStyled, Container, Title } from "./styles"
 
 export const Services = () => {
   // const [cards, setCards] = useState<Card[]>([])
@@ -57,9 +57,6 @@ export const Services = () => {
         Serviços
       </Title>
       <CarouselContainer>
-        <LeftArrowContainer >
-          <img src={Arrow} alt="Seta para esquerda" />
-        </LeftArrowContainer>
         <CarouselStyled {...settings}>
           {content.map((service, index) => (
             <CarouselCards
@@ -70,9 +67,6 @@ export const Services = () => {
             />
           ))}
         </CarouselStyled>
-        <RightArrowContainer>
-          <img src={Arrow} alt="Seta para direita" />
-        </RightArrowContainer>
       </CarouselContainer>
     </Container >
   )

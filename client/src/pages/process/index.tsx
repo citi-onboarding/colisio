@@ -1,11 +1,11 @@
 import { ProcessCards } from "../../components/ProcessCards";
 import { ProcessContainer, ProcessContent, ProcessTitle } from "./styles";
 
-interface Process {
-  id: number;
-  title: string;
-  description: string;
-}
+// interface Process {
+//   id: number;
+//   title: string;
+//   description: string;
+// }
 
 export const Process = () => {
   // const [process, setProcess] = useState<Process[]>([])
@@ -24,32 +24,38 @@ export const Process = () => {
   //   getProcess();
   // }, [])
 
+  const content = [
+    {
+      title: 'Naruto',
+      description: 'Naruto é um menino que vive em Konoha no Sato, a vila ninja do País do Fogo.',
+    },
+    {
+      title: 'Naruto',
+      description: 'Naruto é um menino que vive em Konoha no Sato, a vila ninja do País do Fogo.',
+    },
+    {
+      title: 'Naruto',
+      description: 'Naruto é um menino que vive em Konoha no Sato, a vila ninja do País do Fogo.',
+    },
+    {
+      title: 'Naruto',
+      description: 'Naruto é um menino que vive em Konoha no Sato, a vila ninja do País do Fogo.',
+    },
+    {
+      title: 'Naruto',
+      description: 'Naruto é um menino que vive em Konoha no Sato, a vila ninja do País do Fogo.',
+    },
+  ]
+
   return (
     <ProcessContainer id="Processo">
       <ProcessTitle>
         Processo
       </ProcessTitle>
       <ProcessContent>
-        <ProcessCards
-          title="LOREM"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ex justo, porta in imperdiet vel, luctus quis augue."
-        />
-        <ProcessCards
-          title="LOREM"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ex justo, porta in imperdiet vel, luctus quis augue."
-        />
-        <ProcessCards
-          title="LOREM"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ex justo, porta in imperdiet vel, luctus quis augue."
-        />
-        <ProcessCards
-          title="LOREM"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ex justo, porta in imperdiet vel, luctus quis augue."
-        />
-        <ProcessCards
-          title="LOREM"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ex justo, porta in imperdiet vel, luctus quis augue."
-        />
+        {content.map((item, index) => (
+          <ProcessCards key={index} title={item.title} description={item.description} />
+        ))}
       </ProcessContent>
     </ProcessContainer>
   );

@@ -5,6 +5,7 @@ import { AboutUs } from './aboutUs';
 import { Footer } from './footer';
 import { Contact } from './contact';
 import { Services } from './services';
+import { Colisers } from './coilsers';
 
 export {
     Home,
@@ -13,5 +14,6 @@ export {
     Footer,
     Contact,
     Services,
+    Colisers,
     Navbar
 };
