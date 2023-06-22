@@ -57,7 +57,10 @@ export const Colisers = () => {
             <ColiserCard key={index} text={item.title} />
           ))}
           <ContactButton>
-            <a href="/#">
+            <a
+              href="https://forms.gle/ayYg59tV8poMqg366"
+              target="_blank" rel="noreferrer"
+            >
               Torne-se um coliser
             </a>
           </ContactButton>

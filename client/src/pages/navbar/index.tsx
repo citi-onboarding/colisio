@@ -22,7 +22,10 @@ export const Navbar = () => {
           Seja um coliser
         </NavbarMenuItem>
       </NavbarMenu>
-      <NavbarButton href="/#Contato">Contato</NavbarButton>
+      <NavbarButton
+        href="https://wa.me/558198839119"
+        target="_blank"
+      >Contato</NavbarButton>
     </NavbarContainer>
   );
 }

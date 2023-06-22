@@ -5,7 +5,7 @@ import { AboutUs } from './aboutUs';
 import { Footer } from './footer';
 import { Contact } from './contact';
 import { Services } from './services';
-import { Colisers } from './coilsers';
+import { Colisers } from './colisers';
 
 export {
     Home,

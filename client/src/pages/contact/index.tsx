@@ -10,7 +10,10 @@ export const Contact = () => {
         Veja como a Colisio pode transformar o seu jeito de
         fazer marketing!
       </Text>
-      <ContactButton href="/">
+      <ContactButton
+        href="https://wa.me/558198839119"
+        target="_blank"
+      >
         Falar com um analista
       </ContactButton>
     </Container>

@@ -13,7 +13,10 @@ export const Home = () => {
                 com as habilidades específicas que seu negócio
                 precisa
             </HomeDescription>
-            <HomeButton href="/#contato">
+            <HomeButton
+                href="https://wa.me/558198839119"
+                target="_blank"
+            >
                 Comece agora
             </HomeButton>
             <Image src={HomeImage} />
